@@ -1,0 +1,34 @@
+{
+  "name": "puppeteer-cucumber",
+  "version": "0.0.1",
+  "description": "Cucumber.js plugin for Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write --single-quote --trailing-comma es5 --no-semi 'examples/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ridrum/puppeteer-cucumber.git"
+  },
+  "keywords": [
+    "cucumber",
+    "puppeteer"
+  ],
+  "author": "j pieropan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ridrum/puppeteer-cucumber/issues"
+  },
+  "homepage": "https://github.com/ridrum/puppeteer-cucumber#readme",
+  "dependencies": {
+    "puppeteer": "0.10.0"
+  },
+  "devDependencies": {
+    "eslint": "4.5.0",
+    "eslint-config-airbnb-base": "11.3.2",
+    "eslint-config-prettier": "2.3.0",
+    "eslint-plugin-import": "2.7.0",
+    "prettier": "1.5.3"
+  }
+}
