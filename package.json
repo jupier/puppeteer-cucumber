@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "prettier --write --single-quote --trailing-comma es5 --no-semi 'examples/*.js'"
+    "prettier": "prettier --write --single-quote --trailing-comma es5 --no-semi 'examples/*.js'",
+    "test-cucumber": "./node_modules/.bin/cucumber-js --require ./examples/cucumber-tests/support --require ./examples/cucumber-tests/step_definitions ./examples/cucumber-tests/features"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "homepage": "https://github.com/ridrum/puppeteer-cucumber#readme",
   "dependencies": {
+    "cucumber": "^3.0.0",
     "puppeteer": "0.10.0"
   },
   "devDependencies": {
